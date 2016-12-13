@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d829a650-be0d-4916-bdba-188c6c8c9cbf" name="Default" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/App/node_modules" />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-9" />
+    <option name="y" value="-9" />
+    <option name="width" value="1938" />
+    <option name="height" value="1050" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="disc-covery" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="disc-covery" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d829a650-be0d-4916-bdba-188c6c8c9cbf" name="Default" comment="" />
+      <created>1481550290468</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1481550290468</updated>
+      <workItem from="1481550291714" duration="373000" />
+      <workItem from="1481557540342" duration="9000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="382000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-9" y="-9" width="1938" height="1050" extended-state="6" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="processedProjectFiles" value="true" />
+    <option name="exactExcludedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/App/node_modules/tslint/scripts/buildDocs.js" />
+        <option value="$PROJECT_DIR$/App/node_modules/tsickle/test_files/enum/enum.js" />
+        <option value="$PROJECT_DIR$/App/node_modules/tsickle/test_files/type/type.js" />
+        <option value="$PROJECT_DIR$/App/node_modules/tsickle/test_files/jsdoc/jsdoc.js" />
+        <option value="$PROJECT_DIR$/App/node_modules/tsickle/test_files/super/super.js" />
+        <option value="$PROJECT_DIR$/App/node_modules/tsickle/test_files/coerce/coerce.js" />
+        <option value="$PROJECT_DIR$/App/node_modules/tsickle/test_files/export/export.js" />
+        <option value="$PROJECT_DIR$/App/node_modules/tsickle/test_files/export/export_helper.js" />
+        <option value="$PROJECT_DIR$/App/node_modules/tsickle/test_files/export/export_helper_2.js" />
+        <option value="$PROJECT_DIR$/App/node_modules/tsickle/test_files/fields/fields.js" />
+        <option value="$PROJECT_DIR$/App/node_modules/tsickle/test_files/static/static.js" />
+        <option value="$PROJECT_DIR$/App/node_modules/tsickle/test_files/declare/declare.js" />
+        <option value="$PROJECT_DIR$/App/node_modules/tsickle/test_files/default/default.js" />
+        <option value="$PROJECT_DIR$/App/node_modules/tsickle/test_files/typedef/typedef.js" />
+        <option value="$PROJECT_DIR$/App/node_modules/tsickle/test_files/abstract/abstract.js" />
+        <option value="$PROJECT_DIR$/App/node_modules/tsickle/test_files/arrow_fn/arrow_fn.js" />
+        <option value="$PROJECT_DIR$/App/node_modules/tsickle/test_files/comments/comments.js" />
+        <option value="$PROJECT_DIR$/App/node_modules/tsickle/test_files/optional/optional.js" />
+        <option value="$PROJECT_DIR$/App/node_modules/tsickle/test_files/decorator/decorator.js" />
+        <option value="$PROJECT_DIR$/App/node_modules/tsickle/test_files/functions/functions.js" />
+        <option value="$PROJECT_DIR$/App/node_modules/tsickle/test_files/interface/interface.js" />
+        <option value="$PROJECT_DIR$/App/node_modules/tsickle/test_files/variables/variables.js" />
+        <option value="$PROJECT_DIR$/App/node_modules/tsickle/test_files/underscore/export_underscore.js" />
+        <option value="$PROJECT_DIR$/App/node_modules/tsickle/test_files/underscore/underscore.js" />
+        <option value="$PROJECT_DIR$/App/node_modules/tsickle/test_files/jsdoc_types/jsdoc_types.js" />
+        <option value="$PROJECT_DIR$/App/node_modules/tsickle/test_files/jsdoc_types/module2.js" />
+        <option value="$PROJECT_DIR$/App/node_modules/tsickle/test_files/jsdoc_types/nevertyped.js" />
+        <option value="$PROJECT_DIR$/App/node_modules/tsickle/test_files/jsdoc_types/module1.js" />
+        <option value="$PROJECT_DIR$/App/node_modules/tsickle/test_files/jsdoc_types/default.js" />
+        <option value="$PROJECT_DIR$/App/node_modules/tsickle/test_files/enum.untyped/enum.untyped.js" />
+        <option value="$PROJECT_DIR$/App/node_modules/tsickle/test_files/file_comment/file_comment.js" />
+        <option value="$PROJECT_DIR$/App/node_modules/tsickle/test_files/basic.untyped/basic.untyped.js" />
+        <option value="$PROJECT_DIR$/App/node_modules/tsickle/test_files/fields_no_ctor/fields_no_ctor.js" />
+        <option value="$PROJECT_DIR$/App/node_modules/tsickle/test_files/type_and_value/module.js" />
+        <option value="$PROJECT_DIR$/App/node_modules/tsickle/test_files/type_and_value/type_and_value.js" />
+        <option value="$PROJECT_DIR$/App/node_modules/tsickle/test_files/typedef.untyped/typedef.untyped.js" />
+        <option value="$PROJECT_DIR$/App/node_modules/tsickle/test_files/arrow_fn.untyped/arrow_fn.untyped.js" />
+        <option value="$PROJECT_DIR$/App/node_modules/tsickle/test_files/declare_class_ns/declare_class_ns.js" />
+        <option value="$PROJECT_DIR$/App/node_modules/tsickle/test_files/functions.untyped/functions.js" />
+        <option value="$PROJECT_DIR$/App/node_modules/tsickle/test_files/structural.untyped/structural.untyped.js" />
+        <option value="$PROJECT_DIR$/App/node_modules/tsickle/test_files/jsdoc_types.untyped/jsdoc_types.js" />
+        <option value="$PROJECT_DIR$/App/node_modules/tsickle/test_files/jsdoc_types.untyped/module2.js" />
+        <option value="$PROJECT_DIR$/App/node_modules/tsickle/test_files/jsdoc_types.untyped/nevertyped.js" />
+        <option value="$PROJECT_DIR$/App/node_modules/tsickle/test_files/jsdoc_types.untyped/module1.js" />
+        <option value="$PROJECT_DIR$/App/node_modules/tsickle/test_files/jsdoc_types.untyped/default.js" />
+        <option value="$PROJECT_DIR$/App/node_modules/tsickle/test_files/parameter_properties/parameter_properties.js" />
+        <option value="$PROJECT_DIR$/App/node_modules/reflect-metadata/Reflect.js" />
+        <option value="$PROJECT_DIR$/App/node_modules/reflect-metadata/Reflect.js.map" />
+        <option value="$PROJECT_DIR$/App/node_modules/tsickle/test_files/jsx/jsx.js" />
+      </list>
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+</project>
