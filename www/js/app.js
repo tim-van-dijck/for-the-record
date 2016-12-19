@@ -8,9 +8,9 @@
 angular.module('app', ['ionic', 'app.controllers', 'app.routes', 'app.directives','app.services',])
 
 .config(function($ionicConfigProvider, $sceDelegateProvider){
-  
 
-  $sceDelegateProvider.resourceUrlWhitelist([ 'self','*://www.youtube.com/**', '*://player.vimeo.com/video/**']);
+    $ionicConfigProvider.tabs.position('bottom');
+    $sceDelegateProvider.resourceUrlWhitelist([ 'self','*://www.youtube.com/**', '*://player.vimeo.com/video/**']);
 
 })
 
@@ -27,6 +27,12 @@ angular.module('app', ['ionic', 'app.controllers', 'app.routes', 'app.directives
       StatusBar.styleDefault();
     }
   });
+})
+
+.run(function ($rootScope, $state, LoginService) {
+    $rootScope.$on('$stateChangeStart', function (event,next, nextParams, fromState) {
+        LoginService.isLoggedIn();
+    });
 })
 
 /*

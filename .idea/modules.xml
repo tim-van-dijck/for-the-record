@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/../afstudeerwerk/.idea/afstudeerwerk.iml" filepath="$PROJECT_DIR$/../afstudeerwerk/.idea/afstudeerwerk.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/disc-covery.iml" filepath="$PROJECT_DIR$/.idea/disc-covery.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../disc-covery-backend/.idea/disc-covery-backend.iml" filepath="$PROJECT_DIR$/../disc-covery-backend/.idea/disc-covery-backend.iml" />
     </modules>
   </component>
 </project>

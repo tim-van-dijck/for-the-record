@@ -14,5 +14,7 @@
         </SOURCES>
       </library>
     </orderEntry>
+    <orderEntry type="module" module-name="disc-covery-backend" />
+    <orderEntry type="module" module-name="afstudeerwerk" />
   </component>
 </module>
