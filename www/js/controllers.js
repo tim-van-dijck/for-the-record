@@ -15,15 +15,18 @@ function ($scope, $stateParams) {
 
 
 }])
-   
+
 .controller('myMusicCtrl', ['$scope', '$stateParams', // The following is the constructor function for this page's controller. See https://docs.angularjs.org/guide/controller
 // You can include any angular dependencies as parameters for this function
 // TIP: Access Route Parameters for your page via $stateParams.parameterName
-function ($scope, $stateParams) {
-    // $scope.records = $http
-
+function ($scope, $stateParams, $http) {
+    $scope.getRecords = function () {
+        $http.get('http://188.226.129.26/records/get').then(function(records) {
+            return records
+        });
+    }
 }])
-   
+
 .controller('followingCtrl', ['$scope', '$stateParams', // The following is the constructor function for this page's controller. See https://docs.angularjs.org/guide/controller
 // You can include any angular dependencies as parameters for this function
 // TIP: Access Route Parameters for your page via $stateParams.parameterName
@@ -123,11 +126,11 @@ function ($scope, $stateParams, $scope) {
                                 picture : "http://graph.facebook.com/" + success.authResponse.userID + "/picture?type=large"
                             });
 
-                            $http.post('http://188.226.129.26/register', {
+                            console.log($http.post('http://188.226.129.26/register', {
                                 firstname: profileInfo.first_name,
                                 lastname: profileInfo.last_name,
-                                email: profileInfo.email,
-                            });
+                                email: profileInfo.email
+                            }));
 
                             $state.go('tabsController.newsfeed');
                         }, function(fail){
@@ -157,11 +160,13 @@ function ($scope, $stateParams, $scope) {
     };
 })
 
-.controller('logoutCtrl', function($scope, UserService, $ionicActionSheet, $state, $ionicLoading){
+.controller('logoutCtrl', function($scope, UserService, $ionicActionSheet, $state){
     $scope.user = UserService.getUser();
 
     facebookConnectPlugin.logout(function(){
         console.log('Logging out...');
     });
+    $state.go('login');
+    console.log('boom!');
 })
  

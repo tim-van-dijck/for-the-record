@@ -8,9 +8,9 @@
     </div>
     <h2 id="record-heading2" style="color:#000000;">Record title</h2>
     <h3 id="record-heading3" style="color:#000000;">Artist</h3>
-    <ion-list id="record-list9">
+    <ion-list id="record-list9" ng-if="">
 
-      <ion-item id="record-list-item18">Song 1</ion-item>
+      <ion-item id="record-list-item18" ng-repeat="(key, value) in getRecords()">Song 1</ion-item>
       <ion-item id="record-list-item19">Song 2</ion-item>
       <ion-item id="record-list-item24">Song 3</ion-item>
     </ion-list>
