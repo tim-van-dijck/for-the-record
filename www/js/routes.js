@@ -1,81 +1,86 @@
 angular.module('app.routes', [])
 
-.config(function($stateProvider, $urlRouterProvider) {
+  .config(function ($stateProvider, $urlRouterProvider) {
 
-      // Ionic uses AngularUI Router which uses the concept of states
-      // Learn more here: https://github.com/angular-ui/ui-router
-      // Set up the various states which the app can be in.
-      // Each state's controller can be found in controllers.js
-      $stateProvider
+    // Ionic uses AngularUI Router which uses the concept of states
+    // Learn more here: https://github.com/angular-ui/ui-router
+    // Set up the various states which the app can be in.
+    // Each state's controller can be found in controllers.js
+    $stateProvider
 
 
-
-    .state('tabsController.newsfeed', {
+      .state('tabsController.newsfeed', {
         url: '/newsfeed',
         views: {
-            'tab1': {
-                templateUrl: 'templates/newsfeed.html',
-                controller: 'newsfeedCtrl'
-            }
+          'tab1': {
+            templateUrl: 'templates/newsfeed.html',
+            controller: 'newsfeedCtrl'
+          }
         }
-    })
+      })
 
-    .state('tabsController.myMusic', {
+      .state('tabsController.myMusic', {
         url: '/my-music',
         views: {
-            'tab2': {
-                templateUrl: 'templates/myMusic.html',
-                controller: 'myMusicCtrl'
-            }
+          'tab2': {
+            templateUrl: 'templates/myMusic.html',
+            controller: 'myMusicCtrl'
+          }
         }
-    })
+      })
 
-    .state('tabsController.following', {
+      .state('tabsController.following', {
         url: '/following',
         views: {
-            'tab3': {
-                templateUrl: 'templates/following.html',
-                controller: 'followingCtrl'
-            }
+          'tab3': {
+            templateUrl: 'templates/following.html',
+            controller: 'followingCtrl'
+          }
         }
-    })
+      })
 
-    .state('tabsController', {
+      .state('tabsController', {
         url: '/page1',
         templateUrl: 'templates/tabsController.html',
-        abstract:true
-    })
+        abstract: true
+      })
 
-    .state('login', {
+      .state('login', {
         url: '/login',
         templateUrl: 'templates/login.html',
         controller: 'loginCtrl'
-    })
+      })
 
-    .state('logout', {
+      .state('logout', {
         url: '/logout',
         controller: 'logoutCtrl'
-    })
+      })
 
-    .state('tabsController.profile', {
+      .state('settings', {
+        url: '/settings',
+        controller: 'settingsCtrl as settings',
+        templateUrl: 'templates/settings.html'
+      })
+
+      .state('tabsController.profile', {
         url: '/profile',
         views: {
-            'tab3': {
-                templateUrl: 'templates/profile.html',
-                controller: 'profileCtrl'
-            }
+          'tab3': {
+            templateUrl: 'templates/profile.html',
+            controller: 'profileCtrl'
+          }
         }
-    })
+      })
 
-    .state('tabsController.record', {
+      .state('tabsController.record', {
         url: '/record',
         views: {
-            'tab2': {
-                templateUrl: 'templates/record.html',
-                controller: 'recordCtrl'
-            }
+          'tab2': {
+            templateUrl: 'templates/record.html',
+            controller: 'recordCtrl'
+          }
         }
-    })
+      })
 
     $urlRouterProvider.otherwise('/login')
-});
+  });
