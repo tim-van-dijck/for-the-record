@@ -37,17 +37,13 @@ angular.module('app.services', [])
 
   .service('LoginService', function ($ionicPlatform, $state) {
     var isLoggedIn = function () {
-      console.log($state.current.name);
       $ionicPlatform.ready(function () {
         facebookConnectPlugin.getLoginStatus(function (response) {
-            console.log(response.status);
-            if (response.status != 'connected' && $state.current.name != 'login' && $state.current.name != '') {
+            if (response.status != 'connected') {
               console.log('Not logged in');
               $state.go('login');
-            } else {
-              if (response.status == 'connected') {
-                console.log('Logged in');
-              }
+            } else if (response.status == 'connected') {
+              console.log('Logged in');
             }
           },
           function () {

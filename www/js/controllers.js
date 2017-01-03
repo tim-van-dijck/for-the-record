@@ -55,15 +55,15 @@ angular.module('app.controllers', [])
 
     }])
 
-  .controller('recordCtrl', ['$scope', '$stateParams',// The following is the constructor function for this page's controller. See https://docs.angularjs.org/guide/controller
+  .controller('recordCtrl', ['$scope', '$stateParams', '$http',// The following is the constructor function for this page's controller. See https://docs.angularjs.org/guide/controller
 // You can include any angular dependencies as parameters for this function
 // TIP: Access Route Parameters for your page via $stateParams.parameterName
-    function ($scope, $stateParams, $scope) {
+    function ($scope, $stateParams, $http) {
 
 
     }])
 
-  .controller('loginCtrl', function ($scope, $state, $q, UserService, $ionicLoading) {
+  .controller('loginCtrl', function ($scope, $state, $q, UserService, $ionicLoading, $http) {
     // This is the success callback from the login method
     var fbLoginSuccess = function (response) {
       if (!response.authResponse) {
@@ -83,6 +83,26 @@ angular.module('app.controllers', [])
             email: profileInfo.email,
             picture: "http://graph.facebook.com/" + authResponse.userID + "/picture?type=large"
           });
+
+          // Store user in DB
+          $http.post('http://188.226.129.26/api/register', {
+              firstname: profileInfo.first_name,
+              lastname: profileInfo.last_name,
+              email: profileInfo.email,
+              token: accessToken
+          }).then(function (response) {
+              console.log(response);
+              console.log('login token', accessToken);
+          });
+
+            facebookConnectPlugin.showDialog({
+                    method: "feed",
+                    link: 'https://spotify.com',
+                    message:'Test post from App',
+                },
+                function (response) { alert(JSON.stringify(response)) },
+                function (response) { alert(JSON.stringify(response)) });
+
           $ionicLoading.hide();
           $state.go('tabsController.newsfeed');
         }, function (fail) {
@@ -90,6 +110,8 @@ angular.module('app.controllers', [])
           console.log('profile info fail', fail);
         });
     };
+
+    var token = '';
 
     // This is the fail callback from the login method
     var fbLoginError = function (error) {
@@ -100,8 +122,9 @@ angular.module('app.controllers', [])
     // This method is to get the user profile info from the facebook api
     var getFacebookProfileInfo = function (authResponse) {
       var info = $q.defer();
+      accessToken = authResponse.accessToken
 
-      facebookConnectPlugin.api('/me?fields=email,name&access_token=' + authResponse.accessToken, null,
+      facebookConnectPlugin.api('/me?fields=email,first_name,last_name&access_token=' + accessToken, null,
         function (response) {
           console.log(response);
           info.resolve(response);
@@ -118,10 +141,9 @@ angular.module('app.controllers', [])
     $scope.facebookSignIn = function () {
       facebookConnectPlugin.getLoginStatus(function (success) {
         if (success.status === 'connected') {
-          // The user is logged in and has authenticated your app, and response.authResponse supplies
+          // The user is logged in and has authenticated our app, and response.authResponse supplies
           // the user's ID, a valid access token, a signed request, and the time the access token
           // and signed request each expire
-          console.log('getLoginStatus', success.status);
 
           // Check if we have our user saved
           var user = UserService.getUser('facebook');
@@ -129,7 +151,18 @@ angular.module('app.controllers', [])
           if (!user.userID) {
             getFacebookProfileInfo(success.authResponse)
               .then(function (profileInfo) {
-                // For the purpose of this example I will store user data on local storage
+
+                // Store user in DB
+                $http.post('http://188.226.129.26/api/register', {
+                    firstname: profileInfo.first_name,
+                    lastname: profileInfo.last_name,
+                    email: profileInfo.email,
+                    token: accessToken
+                }).then(function (response) {
+                    console.log(response.status);
+                });
+
+                // Store user data on local storage
                 UserService.setUser({
                   authResponse: success.authResponse,
                   userID: profileInfo.id,
@@ -137,12 +170,6 @@ angular.module('app.controllers', [])
                   email: profileInfo.email,
                   picture: "http://graph.facebook.com/" + success.authResponse.userID + "/picture?type=large"
                 });
-
-                console.log($http.post('http://188.226.129.26/register', {
-                  firstname: profileInfo.first_name,
-                  lastname: profileInfo.last_name,
-                  email: profileInfo.email
-                }));
 
                 $state.go('tabsController.newsfeed');
               }, function (fail) {
