@@ -19,7 +19,7 @@
       var deferred = $q.defer();
       if(window.cordova) {
         if($cordovaOauthUtility.isInAppBrowserInstalled()) {
-          var redirect_uri = "http://localhost/callback";
+          var redirect_uri = "http://localhost/twitter/callback";
           if(options !== undefined) {
             if(options.hasOwnProperty("redirect_uri")) {
                 redirect_uri = options.redirect_uri;

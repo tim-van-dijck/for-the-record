@@ -8,13 +8,20 @@ angular.module('app.controllers', ['ionic.cloud'])
 
     }])
 
-  .controller('settingsCtrl', function (SpotifyService) {
+  .controller('settingsCtrl', function (SpotifyService, TwitterService) {
     var settings = this;
 
     settings.spotify = function () {
       SpotifyService.login().then(function (res) {
         console.log(res);
       }, function (err) {
+        console.log(err);
+      });
+    }
+    settings.twitter = function() {
+      TwitterService.login().then(function(res) {
+        console.log(res);
+      }, function(err) {
         console.log(err);
       });
     }
