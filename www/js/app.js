@@ -42,12 +42,31 @@ angular.module('app', ['ionic', 'app.controllers', 'app.routes', 'app.directives
     });
   })
 
+    .run(function($rootScope, $stateParams, $ionicPush,$state) {
+      $rootScope.$on('cloud:push:notification', function (event, data) {
+        console.log(data);
+        var message = data.message.payload;
+
+        $state.go('tabsController.newsfeed');
+        facebookConnectPlugin.showDialog({
+            method: "feed",
+            link: message.link,
+            message: 'Test post from App',
+          },
+          function (response) {
+            alert(JSON.stringify(response))
+          },
+          function (response) {
+            alert(JSON.stringify(response))
+          }
+        );
+      })
+    })
+
   .run(function ($rootScope, $state, LoginService) {
     $rootScope.$on('$stateChangeStart', function (event, next, nextParams, fromState) {
       LoginService.isLoggedIn();
     });
-
-
   })
 
   /*

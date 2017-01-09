@@ -31,10 +31,7 @@ angular.module('app.controllers', ['ionic.cloud'])
 // You can include any angular dependencies as parameters for this function
 // TIP: Access Route Parameters for your page via $stateParams.parameterName
     function ($scope, $stateParams, $ionicPush) {
-      $scope.$on('cloud:push:notification', function(event, data) {
-        var msg = data.message;
-        alert(msg.text);
-      });
+
 
     }])
 
@@ -83,13 +80,6 @@ angular.module('app.controllers', ['ionic.cloud'])
         return;
       }
 
-      $ionicPush.register().then(function (t) {
-        return $ionicPush.saveToken(t);
-      }).then(function (t) {
-        console.log('Push token saved: ' + t.token)
-      });
-
-
       var authResponse = response.authResponse;
 
       getFacebookProfileInfo(authResponse)
@@ -103,6 +93,13 @@ angular.module('app.controllers', ['ionic.cloud'])
             picture: "http://graph.facebook.com/" + authResponse.userID + "/picture?type=large"
           });
 
+          $ionicPush.register().then(function (t) {
+              return $ionicPush.saveToken(t);
+          }).then(function (t) {
+              console.log('Push token saved: ' + t.token);
+              UserService.setDeviceToken(t.token);
+          });
+
           var user = UserService.getUser();
 
           // Store user in DB
@@ -111,20 +108,12 @@ angular.module('app.controllers', ['ionic.cloud'])
             lastname: profileInfo.last_name,
             email: profileInfo.email,
             token: user.facebook.authResponse.accessToken,
-            api_user_id: user.facebook.userID
+            api_user_id: user.facebook.userID,
+            device_token: user.device_token,
           }).then(function (response) {
             console.log(response);
             console.log('login token', accessToken);
           });
-
-          /*facebookConnectPlugin.showDialog({
-           method: "feed",
-           link: 'https://spotify.com',
-           message:'Test post from App',
-           },
-           function (response) { alert(JSON.stringify(response)) },
-           function (response) { alert(JSON.stringify(response)) }
-           );*/
 
           $ionicLoading.hide();
           $state.go('tabsController.newsfeed');
