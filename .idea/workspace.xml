@@ -2,61 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d829a650-be0d-4916-bdba-188c6c8c9cbf" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../afstudeerwerk/public/img/organisations/d3f225520c15b8a32c3ae1b74b348e314bfaf99c426a65a88d8698cf2e0c83dbf71362127d618506876e172f59434fbaf75a8c98a6ed4a298fd311b4fcbbc742.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../afstudeerwerk/public/img/events/0bb7d4b13663c895bcfcd05db7cf6deb12f0b7458e6b8003b310e26cec24a0e7e1048a550f965b0239f1668b05d9b8a2ec4a13900999f315317c1ed017a46fdc.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../afstudeerwerk/public/img/organisations/424acd95046bd98703fb7fe5cbd67c168aef97542d9b4b7867dabcb3aa00dca9203014776d5a6491a2bcbe9828b1a6f0b66c58f482307bf3e92c61766078c80c.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../afstudeerwerk/public/img/teams/c584ba620cabd50aab1e055f4566e40300e6c4b94accc0dcd33e1ab11f1bfeb2b0f6066d074c538ea3fb5fe8373a09847458f54a0d9f46e5e5306b3c14083f9e.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../afstudeerwerk/public/img/events/12b60c29fdd19ddf2b7c7d3d283b89c558f5fc2af076d22345bce7f860a44bb508cc256fb472af3686598f5b58c4d8010afb5e5f8765a78f0fa65cfaa297729e.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../afstudeerwerk/public/img/organisations/LTL.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../afstudeerwerk/public/img/teams/49c11489fbbc2c4fe36cd0acfaa8bef8f31399a7e96580b46b04545807705f96f131e5cf9e30d28367f735033d2b28f086610712487c9db465a2e2c651d09ce2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../afstudeerwerk/public/img/organisations/779f5ce3051cd1b0474c373c914682eb4dd09862be755e281d78436f54e652ea8ebf1c323eb7e5be0ce1f642c04d9a710b6627002c7010c9cd2865b66520c1bc.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../afstudeerwerk/public/img/teams/00989ad14c9d8f9865aa4ecd8023db84717754fa63b216c57d5379ebcf3bfffc5b9d78a8588f74dc94e46bab16b26319045c31f2672e0e86f42037bd5b9c80f3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../afstudeerwerk/public/img/organisations/7c1067394fe36f22966f48cedbbd44f79ff51fe489ac53d7fa0f2e1992e33bd3a05d407fb18d3317c79aaf945e6c30bd7a9c6e0070b91b90d15e740cf73c8831.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../afstudeerwerk/public/img/teams/ba4713028e7da692b3e3eae7efd337bef77906d01bc405ee340440751f0bf13bd073e170e60ceec280da744082bdf0a4678f8bb8a1c755c03655858727aecebe.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../afstudeerwerk/public/img/users/thumbs/Thumbs.db" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../afstudeerwerk/public/img/organisations/ef46b29aa57bbb9a6f3ec1ca9bb023be857900d1bc743d43ebbbfecd0cc236c4056074a0617c31fcb905afa19a25dcb25e13b6e58802b3b877ed8e0bfede3f3d.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../afstudeerwerk/public/img/organisations/0ad8c4b636761c648e365ceeba6394c3f0ba9e36317d3862b190f980a1c6dcf203611885d80c68077d7e00e1f82df745664b9e1c040ac88c430af345a319db4d.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../afstudeerwerk/public/img/organisations/7dfb126eee60177d9d09f1d714bb74254417ef371c0299c057527822d70825fe3e0b37cb1ac0576b1300af71497a8b3afed11ed321a8a113bd8aa478d8e4cdcd.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../afstudeerwerk/public/img/organisations/f25fdd287b7ac598aa2fd2cb64c9396d11cb32f385eaf54658bb70bd09a65344ece2b99b1d1af3bb43599dab6aaf8bc223f9dde200485fb97ae5790fc7347892.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../afstudeerwerk/public/img/organisations/20aba44c4a8bd9ebf0c17c0cc9287b70d8031a93071e94b93741c45146a1a55d68a125e1c4fb2f21173b5f97b13448fa6340559b76b43ad736cb4aebeeff5adf.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../afstudeerwerk/public/img/teams/720d0ed3c59fd42349f118e67dfe9505ef1eeb0bcfb03e56eef83b352abb10b107aeac88992d9a654daface6f63831817330a4bec78d57aa6b3d767a784af16e.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../afstudeerwerk/public/img/events/c3fe93315ae76bbc1194ed9eaf5a0a74b79f5c7c6d4ae17dccfd4006c33be568ab009b85e886d8acf063f000031670d923f8d3dfc8346ca1da07edbc8a90474d.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../afstudeerwerk/public/img/organisations/b3e3911678cb366db70a5c3232cfd96881304f7527544ff3132d7dc219b8ae2970fa4f1473dfe603b60f26aa250fd650969593fa62aa1113cb1f459da9229a34.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../afstudeerwerk/public/img/events/0ffdd2246b5306b7bc532674387888b31c1cf47c040273890b952857ee764761295e49b3744b641dd18f06b582fc3be88de1d7712fcdd2a3a66fb67bcc4d7924.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../afstudeerwerk/public/img/teams/2aff5256e91a061d4ed8185f41aef98914bdff9cb27bf95f8080a43b4f145834904861503ec12430dd821c5ae39c225ebfc87daaf267f9d588d29bb35f96c692.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../afstudeerwerk/public/img/users/046296fd4f579a442b6a97c40e8b1c5f5ad6dd7ff52df464b6c6f4bad95f068ef063b234c14aaabcf19483fc84622586f5619cb36ded2e50ee2d241b8c9d78fd.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../afstudeerwerk/public/img/users/c4e504dc04c4207bcee7075887609915c02a50b09701bb3afe6d9133e3f276c1d3f46a3ca924ab8bf92c4bd4321a23a06a15a63e53366f86ceb9cd320927f85c.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../afstudeerwerk/public/img/organisations/e714f00a8f6d09e8fdad124d2e7e405367f2b493e2f0e8c7724a2e70a697e4050528bfe7fed637260c14d2f3a4cb1a9651859b41086ea9b0e0f61ab8ca6902b4.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../afstudeerwerk/public/img/events/97135c20ccb74147fc557522ef0cebb04b5c585c1675c824e579c1e3b519865d68fd3a80c725d419a9738a80afd9386f4fc53f8c51e10751e4e12d5dd6ad0608.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../afstudeerwerk/public/img/organisations/e7e2dc123ac8ad493ef3f76a5ea06abdb69e9825b8736837542cad1c202f143ccc0025954d852ff9a44a0b6d29ca78528aa76a484e2d1c23b755de5b66ebf352.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../afstudeerwerk/public/img/users/59354f7966a12fecaf4ac5ab4625284b06ef2cc67e84fd28e5ca45b793f84df6078a04d8ba0099e62a3d86f7cef25c3f5389e9e9b390569c799608d7436466b3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../afstudeerwerk/public/img/events/ea5e0ec89f5f6c701291de349c02d2d1c5480a99a4619d8cd7603fff57df2cb0f87619dddb4672107994023348c257d3610b57f9d14cbcdd082db4192a54e001.jpg" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../afstudeerwerk/public/css/style.scss" afterPath="$PROJECT_DIR$/../afstudeerwerk/public/css/style.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../afstudeerwerk/public/img/users/Thumbs.db" afterPath="$PROJECT_DIR$/../afstudeerwerk/public/img/users/Thumbs.db" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../afstudeerwerk/app/Console/Kernel.php" afterPath="$PROJECT_DIR$/../afstudeerwerk/app/Console/Kernel.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../afstudeerwerk/app/User.php" afterPath="$PROJECT_DIR$/../afstudeerwerk/app/User.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../afstudeerwerk/public/img/Thumbs.db" afterPath="$PROJECT_DIR$/../afstudeerwerk/public/img/Thumbs.db" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../afstudeerwerk/resources/views/layouts/app.blade.php" afterPath="$PROJECT_DIR$/../afstudeerwerk/resources/views/layouts/app.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../afstudeerwerk/app/Http/Controllers/UserController.php" afterPath="$PROJECT_DIR$/../afstudeerwerk/app/Http/Controllers/UserController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../afstudeerwerk/public/img/teams/Thumbs.db" afterPath="$PROJECT_DIR$/../afstudeerwerk/public/img/teams/Thumbs.db" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../afstudeerwerk/app/Http/Controllers/AjaxController.php" afterPath="$PROJECT_DIR$/../afstudeerwerk/app/Http/Controllers/AjaxController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../afstudeerwerk/resources/views/teams/show.blade.php" afterPath="$PROJECT_DIR$/../afstudeerwerk/resources/views/teams/show.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../afstudeerwerk/app/Team.php" afterPath="$PROJECT_DIR$/../afstudeerwerk/app/Team.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../afstudeerwerk/routes/web.php" afterPath="$PROJECT_DIR$/../afstudeerwerk/routes/web.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../afstudeerwerk/public/css/style.css" afterPath="$PROJECT_DIR$/../afstudeerwerk/public/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../afstudeerwerk/public/css/style.css.map" afterPath="$PROJECT_DIR$/../afstudeerwerk/public/css/style.css.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../afstudeerwerk/resources/views/events/show.blade.php" afterPath="$PROJECT_DIR$/../afstudeerwerk/resources/views/events/show.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../afstudeerwerk/resources/views/events/leaderboard.blade.php" afterPath="$PROJECT_DIR$/../afstudeerwerk/resources/views/events/leaderboard.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../afstudeerwerk/public/img/events/Thumbs.db" afterPath="$PROJECT_DIR$/../afstudeerwerk/public/img/events/Thumbs.db" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../afstudeerwerk/public/img/organisations/Thumbs.db" afterPath="$PROJECT_DIR$/../afstudeerwerk/public/img/organisations/Thumbs.db" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../afstudeerwerk/.sass-cache/de5da0ab0fb7138d70ef34a1e59d558b4f4e47fc/style.scssc" afterPath="$PROJECT_DIR$/../afstudeerwerk/.sass-cache/de5da0ab0fb7138d70ef34a1e59d558b4f4e47fc/style.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../afstudeerwerk/resources/views/teams/members.blade.php" afterPath="$PROJECT_DIR$/../afstudeerwerk/resources/views/teams/members.blade.php" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/disc_covery_backend_node_modules.xml" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../afstudeerwerk/app/Http/Controllers/MessageController.php" afterPath="$PROJECT_DIR$/../afstudeerwerk/app/Http/Controllers/MessageController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../afstudeerwerk/app/Message.php" afterPath="$PROJECT_DIR$/../afstudeerwerk/app/Message.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../disc-covery-backend/app/SocialAccount.php" afterPath="$PROJECT_DIR$/../disc-covery-backend/app/SocialAccount.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config.xml" afterPath="$PROJECT_DIR$/config.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/js/app.js" afterPath="$PROJECT_DIR$/www/js/app.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/js/constants.js" afterPath="$PROJECT_DIR$/www/js/constants.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/js/controllers.js" afterPath="$PROJECT_DIR$/www/js/controllers.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/js/services.js" afterPath="$PROJECT_DIR$/www/js/services.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../disc-covery-backend/app/SocialAccount.php" afterPath="$PROJECT_DIR$/../disc-covery-backend/app/SocialAccount.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../afstudeerwerk/resources/views/admin/organisations.blade.php" afterPath="$PROJECT_DIR$/../afstudeerwerk/resources/views/admin/organisations.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../afstudeerwerk/app/Http/Controllers/TeamController.php" afterPath="$PROJECT_DIR$/../afstudeerwerk/app/Http/Controllers/TeamController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../afstudeerwerk/public/img/organisations/thumbs/Thumbs.db" afterPath="$PROJECT_DIR$/../afstudeerwerk/public/img/organisations/thumbs/Thumbs.db" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/templates/settings.html" afterPath="$PROJECT_DIR$/www/templates/settings.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -65,7 +22,6 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
@@ -83,108 +39,107 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="controllers.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/www/js/controllers.js">
+      <file leaf-file-name="SocialController.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../disc-covery-backend/app/Http/Controllers/SocialController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="142" column="21" selection-start-line="142" selection-start-column="6" selection-end-line="142" selection-end-column="21" />
+            <state relative-caret-position="315">
+              <caret line="29" column="6" lean-forward="false" selection-start-line="29" selection-start-column="6" selection-end-line="29" selection-end-column="6" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserController.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../disc-covery-backend/app/Http/Controllers/UserController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="672">
+              <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SocialAccount.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../disc-covery-backend/app/SocialAccount.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="445">
+              <caret line="60" column="89" lean-forward="false" selection-start-line="60" selection-start-column="89" selection-end-line="60" selection-end-column="89" />
               <folding>
-                <marker date="1483722787640" expanded="true" signature="8831:8832" ph="{...}" />
+                <element signature="e#274#1867#0#PHP" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/package.json">
+      <file leaf-file-name="refreshToken.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../disc-covery-backend/app/Console/Commands/refreshToken.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="603">
-              <caret line="22" column="14" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="14" />
+            <state relative-caret-position="84">
+              <caret line="46" column="51" lean-forward="false" selection-start-line="46" selection-start-column="51" selection-end-line="46" selection-end-column="51" />
+              <folding>
+                <element signature="e#40#62#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="laravel.log" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../disc-covery-backend/storage/logs/laravel.log">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-28452">
+              <caret line="19" column="43" lean-forward="false" selection-start-line="19" selection-start-column="43" selection-end-line="19" selection-end-column="43" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="android.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/plugins/android.json">
+      <file leaf-file-name="User.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../disc-covery-backend/app/User.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="540">
-              <caret line="15" column="37" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="37" />
+            <state relative-caret-position="336">
+              <caret line="86" column="40" lean-forward="false" selection-start-line="86" selection-start-column="40" selection-end-line="86" selection-end-column="40" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="fetch.json" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/plugins/fetch.json">
+      <file leaf-file-name="2016_12_12_132811_social_accounts.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../disc-covery-backend/database/migrations/2016_12_12_132811_social_accounts.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="49" column="2" selection-start-line="49" selection-start-column="2" selection-end-line="49" selection-end-column="2" />
+            <state relative-caret-position="357">
+              <caret line="19" column="53" lean-forward="false" selection-start-line="19" selection-start-column="53" selection-end-line="19" selection-end-column="53" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="bower.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bower.json">
+      <file leaf-file-name=".env" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../disc-covery-backend/.env">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="4" column="41" selection-start-line="4" selection-start-column="41" selection-end-line="4" selection-end-column="41" />
+            <state relative-caret-position="507">
+              <caret line="35" column="43" lean-forward="false" selection-start-line="35" selection-start-column="43" selection-end-line="35" selection-end-column="43" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="gulpfile.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gulpfile.js">
+      <file leaf-file-name="oauth.spotify.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/www/lib/ng-cordova-oauth/src/oauth.spotify.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="171">
+              <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="directives.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/www/js/directives.js">
+      <file leaf-file-name="settings.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/www/templates/settings.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="105">
+              <caret line="5" column="15" lean-forward="false" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="15" />
               <folding />
             </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="routes.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/www/js/routes.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="347">
-              <caret line="69" column="30" selection-start-line="69" selection-start-column="30" selection-end-line="69" selection-end-column="30" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="services.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/www/js/services.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="612">
-              <caret line="38" column="65" selection-start-line="38" selection-start-column="65" selection-end-line="38" selection-end-column="65" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="INSTALLATION.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/plugins/phonegap-plugin-push/docs/INSTALLATION.md">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="368">
-              <caret line="154" column="90" selection-start-line="154" selection-start-column="90" selection-end-line="154" selection-end-column="90" />
-              <folding />
-            </state>
-          </provider>
-          <provider editor-type-id="MarkdownPreviewEditor">
-            <state />
           </provider>
         </entry>
       </file>
@@ -199,37 +154,40 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>console.log(</find>
-      <find>login</find>
-      <find>token</find>
-      <find>logged in</find>
-      <find>fbloginsuccess</find>
-      <find>UserService</find>
-      <find>UserService.setUs</find>
-      <find>admin</find>
-      <find>form</find>
-      <find>name</find>
-      <find>public_pro</find>
-      <find>.login(</find>
-      <find>api</find>
-      <find>accessToken</find>
-      <find>console</find>
-      <find>.api(</find>
-      <find>table</find>
-      <find>.profile</find>
-      <find>i</find>
-      <find>section</find>
-      <find>showDialp</find>
-      <find>saveTracks</find>
-      <find>server_url</find>
-      <find>user.</find>
-      <find>userID</find>
       <find>acce</find>
-      <find>spotify</find>
-      <find>register</find>
       <find>fb_token</find>
       <find>api_user_id</find>
+      <find>main</find>
+      <find>menu</find>
+      <find>friend</find>
+      <find>abs-wr</find>
+      <find>notification</find>
+      <find>img</find>
+      <find>load-</find>
+      <find>load-lfg</find>
+      <find>offset</find>
+      <find>lfg</find>
+      <find>btn</find>
+      <find>select</find>
+      <find>.post</find>
+      <find>icon</find>
+      <find>:hover</find>
+      <find>notificat</find>
+      <find>sender_id</find>
+      <find>dialog</find>
+      <find>login</find>
+      <find>register</find>
+      <find>alert</find>
+      <find>go('</find>
+      <find>state.go</find>
+      <find>Spotify</find>
+      <find>authorize</find>
+      <find>response</find>
+      <find>spotify</find>
     </findStrings>
+    <dirStrings>
+      <dir>D:\Documents\GitHub\disc-covery</dir>
+    </dirStrings>
   </component>
   <component name="Git.Settings">
     <option name="ROOT_SYNC" value="SYNC" />
@@ -238,9 +196,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/../afstudeerwerk/resources/views/events/lfg.blade.php" />
-        <option value="$PROJECT_DIR$/../afstudeerwerk/app/Http/Controllers/EventController.php" />
-        <option value="$PROJECT_DIR$/../afstudeerwerk/database/seeds/UsersTableSeeder.php" />
         <option value="$PROJECT_DIR$/../afstudeerwerk/database/migrations/2014_10_12_000000_create_users_table.php" />
         <option value="$PROJECT_DIR$/../afstudeerwerk/resources/views/teams/lfg.blade.php" />
         <option value="$PROJECT_DIR$/../afstudeerwerk/resources/views/auth/register.blade.php" />
@@ -251,8 +206,6 @@
         <option value="$PROJECT_DIR$/../disc-covery-backend/routes/web.php" />
         <option value="$PROJECT_DIR$/../disc-covery-backend/app/Http/Controllers/Auth/RegisterController.php" />
         <option value="$PROJECT_DIR$/www/js/routes.js" />
-        <option value="$PROJECT_DIR$/www/js/constants.js" />
-        <option value="$PROJECT_DIR$/www/templates/settings.html" />
         <option value="$PROJECT_DIR$/platforms/android/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/../afstudeerwerk/resources/views/teams/show.blade.php" />
         <option value="$PROJECT_DIR$/../afstudeerwerk/public/js/interactions.js" />
@@ -261,34 +214,39 @@
         <option value="$PROJECT_DIR$/../afstudeerwerk/routes/web.php" />
         <option value="$PROJECT_DIR$/../afstudeerwerk/app/Http/Controllers/AjaxController.php" />
         <option value="$PROJECT_DIR$/../afstudeerwerk/public/js/forms.js" />
-        <option value="$PROJECT_DIR$/../afstudeerwerk/app/Http/Controllers/TeamController.php" />
         <option value="$PROJECT_DIR$/../afstudeerwerk/app/Team.php" />
-        <option value="$PROJECT_DIR$/../afstudeerwerk/public/js/team-manage.js" />
-        <option value="$PROJECT_DIR$/../afstudeerwerk/resources/views/teams/members.blade.php" />
         <option value="$PROJECT_DIR$/../afstudeerwerk/resources/views/events/show.blade.php" />
-        <option value="$PROJECT_DIR$/../afstudeerwerk/resources/views/layouts/app.blade.php" />
         <option value="$PROJECT_DIR$/../afstudeerwerk/resources/views/events/leaderboard.blade.php" />
-        <option value="$PROJECT_DIR$/../afstudeerwerk/public/css/style.scss" />
         <option value="$PROJECT_DIR$/../disc-covery-backend/database/migrations/2016_12_05_121838_create_records_table.php" />
         <option value="$PROJECT_DIR$/../disc-covery-backend/database/migrations/2016_12_05_122154_create_record_user_table.php" />
         <option value="$PROJECT_DIR$/../disc-covery-backend/app/Song.php" />
         <option value="$PROJECT_DIR$/../disc-covery-backend/app/Http/Controllers/RecordController.php" />
         <option value="$PROJECT_DIR$/../disc-covery-backend/database/migrations/2016_12_20_123849_create_songs_table.php" />
         <option value="$PROJECT_DIR$/../disc-covery-backend/app/Record.php" />
-        <option value="$PROJECT_DIR$/www/js/services.js" />
-        <option value="$PROJECT_DIR$/../disc-covery-backend/app/User.php" />
-        <option value="$PROJECT_DIR$/../disc-covery-backend/routes/api.php" />
-        <option value="$PROJECT_DIR$/../disc-covery-backend/app/Http/Controllers/UserController.php" />
-        <option value="$PROJECT_DIR$/../disc-covery-backend/database/migrations/2016_12_12_132811_social_accounts.php" />
-        <option value="$PROJECT_DIR$/../disc-covery-backend/app/Http/Controllers/SocialController.php" />
-        <option value="$PROJECT_DIR$/../disc-covery-backend/app/SocialAccount.php" />
         <option value="$PROJECT_DIR$/www/templates/login.html" />
         <option value="$PROJECT_DIR$/plugins/phonegap-facebook-plugin/plugin.xml" />
         <option value="$PROJECT_DIR$/www/index.html" />
         <option value="$PROJECT_DIR$/ionic.config.json" />
-        <option value="$PROJECT_DIR$/www/js/app.js" />
-        <option value="$PROJECT_DIR$/www/js/controllers.js" />
         <option value="$PROJECT_DIR$/plugins/fetch.json" />
+        <option value="$PROJECT_DIR$/../disc-covery-backend/app/PushNotifications.php" />
+        <option value="$PROJECT_DIR$/../disc-covery-backend/database/migrations/2014_10_12_000000_create_users_table.php" />
+        <option value="$PROJECT_DIR$/../disc-covery-backend/config/services.php" />
+        <option value="$PROJECT_DIR$/../disc-covery-backend/app/Push.php" />
+        <option value="$PROJECT_DIR$/../disc-covery-backend/app/Notifications/facebookPush.php" />
+        <option value="$PROJECT_DIR$/www/js/app.js" />
+        <option value="$PROJECT_DIR$/www/js/constants.js" />
+        <option value="$PROJECT_DIR$/../disc-covery-backend/routes/api.php" />
+        <option value="$PROJECT_DIR$/www/templates/settings.html" />
+        <option value="$PROJECT_DIR$/www/js/controllers.js" />
+        <option value="$PROJECT_DIR$/www/lib/ng-cordova-oauth/src/oauth.spotify.js" />
+        <option value="$PROJECT_DIR$/www/js/services.js" />
+        <option value="$PROJECT_DIR$/../disc-covery-backend/app/Http/Controllers/UserController.php" />
+        <option value="$PROJECT_DIR$/../disc-covery-backend/.env" />
+        <option value="$PROJECT_DIR$/../disc-covery-backend/app/User.php" />
+        <option value="$PROJECT_DIR$/../disc-covery-backend/app/Console/Commands/refreshToken.php" />
+        <option value="$PROJECT_DIR$/../disc-covery-backend/database/migrations/2016_12_12_132811_social_accounts.php" />
+        <option value="$PROJECT_DIR$/../disc-covery-backend/app/Http/Controllers/SocialController.php" />
+        <option value="$PROJECT_DIR$/../disc-covery-backend/app/SocialAccount.php" />
       </list>
     </option>
   </component>
@@ -301,25 +259,16 @@
   <component name="NodeModulesDirectoryManager">
     <handled-path value="$PROJECT_DIR$/node_modules" />
     <handled-path value="$PROJECT_DIR$/platforms/android/cordova/node_modules" />
-    <handled-path value="$PROJECT_DIR$/plugins/phonegap-facebook-plugin/platforms/android/cordova/node_modules" />
-    <handled-path value="$PROJECT_DIR$/plugins/phonegap-facebook-plugin/platforms/browser/cordova/node_modules" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
     <option name="x" value="-9" />
     <option name="y" value="-9" />
     <option name="width" value="1938" />
-    <option name="height" value="1060" />
+    <option name="height" value="1050" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
-    <OptionsSetting value="true" id="Add" />
-    <OptionsSetting value="true" id="Remove" />
-    <OptionsSetting value="true" id="Checkout" />
-    <OptionsSetting value="true" id="Update" />
-    <OptionsSetting value="true" id="Status" />
-    <OptionsSetting value="true" id="Edit" />
     <ConfirmationsSetting value="1" id="Add" />
-    <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -337,6 +286,7 @@
     </navigator>
     <panes>
       <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -344,15 +294,9 @@
               <option name="myItemId" value="disc-covery" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
-          </PATH>
-          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="disc-covery" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="disc-covery" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+              <option name="myItemId" value="disc-covery-backend" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -361,30 +305,16 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="disc-covery" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+              <option name="myItemId" value="disc-covery-backend" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="www" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="disc-covery" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+              <option name="myItemId" value="storage" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="disc-covery" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="www" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+              <option name="myItemId" value="logs" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -393,16 +323,12 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="disc-covery" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+              <option name="myItemId" value="disc-covery-backend" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="www" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+              <option name="myItemId" value="storage" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -411,17 +337,88 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="disc-covery" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+              <option name="myItemId" value="disc-covery-backend" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="plugins" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+              <option name="myItemId" value="database" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="disc-covery" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="disc-covery-backend" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="database" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="migrations" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="disc-covery" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="disc-covery-backend" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="disc-covery" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="disc-covery-backend" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Http" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="disc-covery" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="disc-covery-backend" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Http" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Controllers" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -435,21 +432,15 @@
     <property name="settings.editor.splitter.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\ino\Documents\GitHub\disc-covery\www\lib" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Documents\GitHub\afstudeerwerk\resources\views\teams" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\ino\Documents\GitHub\disc-covery\www\lib" />
+    </key>
   </component>
   <component name="RunManager">
-    <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
-      <method />
-    </configuration>
-    <configuration default="true" type="DartTestRunConfigurationType" factoryName="Dart Test">
-      <method />
-    </configuration>
-    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma">
+    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
       <config-file value="" />
       <node-interpreter value="project" />
       <envs />
@@ -461,10 +452,19 @@
     <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" working-dir="">
       <method />
     </configuration>
-    <configuration default="true" type="cucumber.js" factoryName="Cucumber.js">
-      <option name="cucumberJsArguments" value="" />
-      <option name="executablePath" />
-      <option name="filePath" />
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpBehatConfigurationType" factoryName="Behat">
+      <BehatRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpSpecConfigurationType" factoryName="PHPSpec">
+      <PhpTestRunnerSettings />
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
@@ -477,7 +477,7 @@
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.npm" factoryName="npm">
-      <command value="run-script" />
+      <command value="run" />
       <scripts />
       <node-interpreter value="project" />
       <envs />
@@ -521,11 +521,16 @@
       <workItem from="1482237973349" duration="71000" />
       <workItem from="1482238152843" duration="8860000" />
       <workItem from="1483700614123" duration="13219000" />
+      <workItem from="1483875210907" duration="3118000" />
+      <workItem from="1483908531211" duration="8714000" />
+      <workItem from="1483952424981" duration="3505000" />
+      <workItem from="1483956267930" duration="125000" />
+      <workItem from="1483959696241" duration="20072000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="68405000" />
+    <option name="totallyTimeSpent" value="103939000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -537,13 +542,14 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1938" height="1060" extended-state="7" />
+    <frame x="-9" y="-9" width="1938" height="1050" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27459368" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27382258" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -554,8 +560,9 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection Results" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5794085" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -575,292 +582,372 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="12" />
+      <option name="time" value="16" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../disc-covery-backend/app/Http/Kernel.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../afstudeerwerk/resources/views/teams/show.blade.php" />
-    <entry file="file://$PROJECT_DIR$/../afstudeerwerk/public/js/interactions.js" />
-    <entry file="file://$PROJECT_DIR$/../afstudeerwerk/app/User.php" />
-    <entry file="file://$PROJECT_DIR$/../afstudeerwerk/app/Http/Controllers/UserController.php" />
-    <entry file="file://$PROJECT_DIR$/../afstudeerwerk/app/Http/Controllers/AjaxController.php" />
-    <entry file="file://$PROJECT_DIR$/../afstudeerwerk/app/Team.php" />
-    <entry file="file://$PROJECT_DIR$/../afstudeerwerk/resources/views/teams/members.blade.php" />
-    <entry file="file://$PROJECT_DIR$/../afstudeerwerk/public/js/team-manage.js" />
-    <entry file="file://$PROJECT_DIR$/../afstudeerwerk/routes/web.php" />
-    <entry file="file://$PROJECT_DIR$/../afstudeerwerk/public/js/forms.js" />
-    <entry file="file://$PROJECT_DIR$/../afstudeerwerk/app/Http/Controllers/TeamController.php" />
-    <entry file="file://$PROJECT_DIR$/../afstudeerwerk/resources/views/events/show.blade.php" />
-    <entry file="file://$PROJECT_DIR$/../afstudeerwerk/resources/views/events/leaderboard.blade.php" />
-    <entry file="file://$PROJECT_DIR$/../afstudeerwerk/public/css/style.scss" />
-    <entry file="file://$PROJECT_DIR$/../afstudeerwerk/resources/views/layouts/app.blade.php" />
-    <entry file="file://$PROJECT_DIR$/../disc-covery-backend/database/migrations/2014_10_12_000000_create_users_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../disc-covery-backend/database/migrations/2016_12_05_131829_create_message_user_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../disc-covery-backend/database/migrations/2016_12_05_121838_create_records_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="21" column="38" selection-start-line="21" selection-start-column="38" selection-end-line="21" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../disc-covery-backend/database/migrations/2016_12_05_122154_create_record_user_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="19" column="57" selection-start-line="19" selection-start-column="57" selection-end-line="19" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../disc-covery-backend/database/migrations/2016_12_20_123830_create_record_song_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../disc-covery-backend/database/migrations/2016_12_20_123849_create_songs_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="20" column="38" selection-start-line="20" selection-start-column="38" selection-end-line="20" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../disc-covery-backend/app/Song.php" />
-    <entry file="file://$PROJECT_DIR$/www/js/constants.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="3" column="55" selection-start-line="3" selection-start-column="55" selection-end-line="3" selection-end-column="55" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../disc-covery-backend/routes/api.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1620">
-          <caret line="45" column="11" selection-start-line="45" selection-start-column="11" selection-end-line="45" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../disc-covery-backend/app/Record.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="624">
-          <caret line="62" column="27" selection-start-line="62" selection-start-column="27" selection-end-line="62" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../disc-covery-backend/app/Http/Controllers/RecordController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../disc-covery-backend/app/User.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="660">
-          <caret line="76" column="30" selection-start-line="76" selection-start-column="30" selection-end-line="76" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../disc-covery-backend/app/Http/Controllers/SocialController.php" />
-    <entry file="file://$PROJECT_DIR$/../disc-covery-backend/app/SocialAccount.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="15" column="45" selection-start-line="15" selection-start-column="45" selection-end-line="15" selection-end-column="45" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../disc-covery-backend/database/migrations/2016_12_12_132811_social_accounts.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="21" column="11" selection-start-line="21" selection-start-column="11" selection-end-line="21" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../disc-covery-backend/app/Http/Controllers/UserController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="886">
-          <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../disc-covery-backend/app/Musicfinder.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/templates/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="2" column="90" selection-start-line="2" selection-start-column="90" selection-end-line="2" selection-end-column="90" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/plugins/phonegap-facebook-plugin/plugin.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="51" column="50" selection-start-line="51" selection-start-column="50" selection-end-line="51" selection-end-column="50" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/lib/ionic.cloud.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="10" column="50" selection-start-line="10" selection-start-column="50" selection-end-line="10" selection-end-column="50" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ionic.config.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/js/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="421">
-          <caret line="18" column="34" selection-start-line="18" selection-start-column="34" selection-end-line="18" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/js/routes.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="347">
-          <caret line="69" column="30" selection-start-line="69" selection-start-column="30" selection-end-line="69" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/js/directives.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="561">
-          <caret line="25" column="76" selection-start-line="25" selection-start-column="76" selection-end-line="25" selection-end-column="76" />
+          <caret line="25" column="76" lean-forward="false" selection-start-line="25" selection-start-column="76" selection-end-line="25" selection-end-column="76" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/js/services.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="38" column="65" selection-start-line="38" selection-start-column="65" selection-end-line="38" selection-end-column="65" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/platforms/android/phonegap-facebook-plugin/disccovery352301-FacebookLib/libs/BUCK">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/plugins/phonegap-plugin-push/docs/INSTALLATION.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="154" column="90" selection-start-line="154" selection-start-column="90" selection-end-line="154" selection-end-column="90" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="MarkdownPreviewEditor">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/js/controllers.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="142" column="21" selection-start-line="142" selection-start-column="6" selection-end-line="142" selection-end-column="21" />
-          <folding>
-            <marker date="1483722787640" expanded="true" signature="8831:8832" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/platforms/android/phonegap-facebook-plugin/disccovery352301-FacebookLib/libs/BUCK" />
+    <entry file="file://$PROJECT_DIR$/plugins/phonegap-plugin-push/docs/INSTALLATION.md" />
     <entry file="file://$PROJECT_DIR$/bower.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="4" column="41" selection-start-line="4" selection-start-column="41" selection-end-line="4" selection-end-column="41" />
-          <folding />
+        <state relative-caret-position="84">
+          <caret line="4" column="41" lean-forward="false" selection-start-line="4" selection-start-column="41" selection-end-line="4" selection-end-column="41" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/gulpfile.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="603">
-          <caret line="22" column="14" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/plugins/android.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="15" column="37" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="37" />
-          <folding />
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/plugins/fetch.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="49" column="2" selection-start-line="49" selection-start-column="2" selection-end-line="49" selection-end-column="2" />
+        <state relative-caret-position="492">
+          <caret line="49" column="2" lean-forward="false" selection-start-line="49" selection-start-column="2" selection-end-line="49" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugins/android.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="15" column="37" lean-forward="false" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="22" column="14" lean-forward="false" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../disc-covery-backend/app/Http/Controllers/MessageController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../disc-covery-backend/app/Http/Controllers/HomeController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../disc-covery-backend/app/Message.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="29" column="28" lean-forward="false" selection-start-line="29" selection-start-column="28" selection-end-line="29" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../disc-covery-backend/app/Record.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="6" column="4" lean-forward="false" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../disc-covery-backend/app/Song.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="4" column="33" lean-forward="false" selection-start-line="4" selection-start-column="33" selection-end-line="4" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../disc-covery-backend/routes/web.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../disc-covery-backend/database/seeds/MessageUserTableSeeder.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-264">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../disc-covery-backend/database/seeds/MessagesTableSeeder.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../disc-covery-backend/database/seeds/FollowingTableSeeder.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../disc-covery-backend/database/seeds/UsersTableSeeder.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../disc-covery-backend/database/seeds/DatabaseSeeder.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../disc-covery-backend/database/migrations/2016_12_20_123849_create_songs_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="20" column="32" lean-forward="true" selection-start-line="20" selection-start-column="32" selection-end-line="20" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../disc-covery-backend/database/migrations/2016_12_20_123830_create_record_song_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../disc-covery-backend/database/migrations/2016_12_05_131829_create_message_user_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../disc-covery-backend/database/migrations/2016_12_05_131529_create_messages_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../disc-covery-backend/database/migrations/2016_12_05_131348_create_following_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../disc-covery-backend/database/migrations/2016_12_05_122154_create_record_user_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="19" column="57" lean-forward="false" selection-start-line="19" selection-start-column="57" selection-end-line="19" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../disc-covery-backend/database/migrations/2016_12_05_121838_create_records_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="21" column="38" lean-forward="false" selection-start-line="21" selection-start-column="38" selection-end-line="21" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../disc-covery-backend/database/migrations/2014_10_12_100000_create_password_resets_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../disc-covery-backend/app/PushNotifications.php" />
+    <entry file="file://$PROJECT_DIR$/../disc-covery-backend/database/migrations/2014_10_12_000000_create_users_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="19" column="42" lean-forward="false" selection-start-line="19" selection-start-column="42" selection-end-line="19" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../disc-covery-backend/config/services.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="819">
+          <caret line="39" column="5" lean-forward="false" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../disc-covery-backend/app/Push.php" />
+    <entry file="file://$PROJECT_DIR$/../disc-covery-backend/app/Notifications/facebookPush.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="777">
+          <caret line="42" column="53" lean-forward="false" selection-start-line="42" selection-start-column="53" selection-end-line="42" selection-end-column="53" />
+          <folding>
+            <element signature="e#37#66#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/js/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="318">
+          <caret line="99" column="83" lean-forward="false" selection-start-line="99" selection-start-column="83" selection-end-line="99" selection-end-column="83" />
+          <folding>
+            <element signature="e#623#1056#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../disc-covery-backend/routes/api.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="303">
+          <caret line="20" column="53" lean-forward="false" selection-start-line="20" selection-start-column="53" selection-end-line="20" selection-end-column="53" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/templates/settings.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="5" column="15" lean-forward="false" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/js/constants.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="2" column="61" lean-forward="false" selection-start-line="2" selection-start-column="61" selection-end-line="4" selection-end-column="97" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/js/controllers.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-420">
+          <caret line="52" column="0" lean-forward="false" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../disc-covery-backend/.env.example">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../disc-covery-backend/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="83" column="11" lean-forward="false" selection-start-line="83" selection-start-column="11" selection-end-line="83" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/js/services.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="37" column="188" lean-forward="false" selection-start-line="37" selection-start-column="188" selection-end-line="37" selection-end-column="188" />
+          <folding>
+            <element signature="e#72#1024#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../disc-covery-backend/.env">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="507">
+          <caret line="35" column="43" lean-forward="false" selection-start-line="35" selection-start-column="43" selection-end-line="35" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../disc-covery-backend/app/Musicfinder.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="48" column="40" lean-forward="true" selection-start-line="48" selection-start-column="40" selection-end-line="48" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../disc-covery-backend/app/Http/Controllers/RecordController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1603">
+          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/lib/ng-cordova-oauth/src/oauth.spotify.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../disc-covery-backend/app/Http/Controllers/UserController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="672">
+          <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../disc-covery-backend/storage/logs/laravel.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-28452">
+          <caret line="19" column="43" lean-forward="false" selection-start-line="19" selection-start-column="43" selection-end-line="19" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../disc-covery-backend/app/Console/Commands/refreshToken.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="46" column="51" lean-forward="false" selection-start-line="46" selection-start-column="51" selection-end-line="46" selection-end-column="51" />
+          <folding>
+            <element signature="e#40#62#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../disc-covery-backend/app/User.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="86" column="40" lean-forward="false" selection-start-line="86" selection-start-column="40" selection-end-line="86" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../disc-covery-backend/database/migrations/2016_12_12_132811_social_accounts.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="19" column="53" lean-forward="false" selection-start-line="19" selection-start-column="53" selection-end-line="19" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../disc-covery-backend/app/Http/Controllers/SocialController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="29" column="6" lean-forward="false" selection-start-line="29" selection-start-column="6" selection-end-line="29" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../disc-covery-backend/app/SocialAccount.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="445">
+          <caret line="60" column="89" lean-forward="false" selection-start-line="60" selection-start-column="89" selection-end-line="60" selection-end-column="89" />
+          <folding>
+            <element signature="e#274#1867#0#PHP" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>

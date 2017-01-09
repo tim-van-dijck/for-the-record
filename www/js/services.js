@@ -10,8 +10,14 @@ angular.module('app.services', [])
     var setSpotify = function (spotify_data) {
         var user = JSON.parse(window.localStorage.user);
         user.spotify = spotify_data;
-        windows.localstorage.user = JSON.stringify(user);
-    }
+        window.localStorage.user = JSON.stringify(user);
+    };
+
+    var setDeviceToken = function(token) {
+        var user = JSON.parse(window.localStorage.user);
+        user.device_token = token;
+        window.localStorage.user = JSON.stringify(user);
+    };
 
     var getUser = function () {
         return JSON.parse(window.localStorage.user || '{"facebook": {}}');
@@ -19,7 +25,9 @@ angular.module('app.services', [])
 
     return {
         getUser: getUser,
-        setUser: setUser
+        setUser: setUser,
+        setSpotify: setSpotify,
+        setDeviceToken: setDeviceToken
     };
 })
 
@@ -27,9 +35,9 @@ angular.module('app.services', [])
     var service = this;
 
     service.login = function () {
-        return $cordovaOauth.spotify(SPOTIFY_ID, ['user-read-private', 'playlist-read-private', 'playlist-modify-public', 'user-library-read', 'user-library-modify']).then(function (result) {
+        return $cordovaOauth.spotify(SPOTIFY_ID, ['user-read-private', 'playlist-read-private', 'playlist-modify-public', 'user-library-read', 'user-library-modify'], {response_type: 'code'}).then(function (result) {
             console.log(result);
-            var token = result.access_token;
+            var token = result.code;
             var user = UserService.getUser();
             var spotify_id = result.id;
 
@@ -48,6 +56,34 @@ angular.module('app.services', [])
         })
     }
 })
+
+/*
+.service('TwitterService', function ($cordovaOauth, TWITTER_ID, Twitter, $http, SERVER_URL, UserService) {
+    var service = this;
+
+    service.login = function () {
+        return $cordovaOauth.spotify(TWITTER_CONSUMER_KEY, TWITTER_CONSUMER_SECRET_KEY).then(function (result) {
+            console.log(result);
+            var token = result.access_token;
+            var user = UserService.getUser();
+            var twitter_id = result.id;
+
+            Twitter.setAuthToken(token);
+            console.log(token);
+            /!*return $http.post(SERVER_URL + 'twitter/link', {
+                fb_token: user.facebook.authResponse.accessToken,
+                token: token,
+                api_user_id: twitter_id,
+
+            }).then(function (res) {
+                console.log(res);
+            }, function (err) {
+                console.log(err);
+            })*!/
+        })
+    }
+})
+*/
 
 .service('LoginService', function ($ionicPlatform, $state) {
     var isLoggedIn = function () {
