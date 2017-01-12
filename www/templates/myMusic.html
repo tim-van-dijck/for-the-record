@@ -1,7 +1,7 @@
 <ion-view title="My music" id="page3">
   <ion-content padding="true" class="has-header">
     <ion-list id="myMusic-list7" ng-if="getRecords().length > 0">
-      <ion-item ngRepeat="(key, record) in getRecords()" class="item-thumbnail-left" id="myMusic-list-item30" ui-sref="tabsController.record">
+      <ion-item ngRepeat="(key, record) in _this.records" class="item-thumbnail-left" id="myMusic-list-item30" ui-sref="tabsController.record">
         <h2>{{ record.name }}</h2>
       </ion-item>
     </ion-list>

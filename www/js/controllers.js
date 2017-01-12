@@ -108,7 +108,7 @@ angular.module('app.controllers', ['ionic.cloud'])
           });
 
           $ionicLoading.hide();
-          $state.go('tabsController.newsfeed');
+          $state.go('tabs.newsfeed');
         }, function (fail) {
           // Fail get profile info
           console.log('profile info fail', fail);
@@ -180,13 +180,13 @@ angular.module('app.controllers', ['ionic.cloud'])
                   console.log(response.status);
                 });
 
-                $state.go('tabsController.newsfeed');
+                $state.go('tabs.newsfeed');
               }, function (fail) {
                 // Fail get profile info
                 console.log('profile info fail', fail);
               });
           } else {
-            $state.go('tabsController.newsfeed');
+            $state.go('tabs.newsfeed');
           }
         } else {
           // If (success.status === 'not_authorized') the user is logged in to Facebook,
@@ -214,5 +214,5 @@ angular.module('app.controllers', ['ionic.cloud'])
       console.log('Logging out...');
     });
     UserService.logout();
-    $state.go('tabsController.newsfeed');
+    $state.go('tabs.newsfeed');
   })

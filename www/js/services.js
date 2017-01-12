@@ -28,7 +28,7 @@ angular.module('app.services', [])
     }
 
     var isLoggedIn = function () {
-        return !(window.localStorage.user === null);
+        return window.localStorage.getItem('user') != null;
     }
 
     var logout = function () { window.localStorage.removeItem('user'); }
@@ -38,6 +38,7 @@ angular.module('app.services', [])
         setUser: setUser,
         getFbToken: getFbToken,
         isLoggedIn: isLoggedIn,
+        logout: logout,
         setSpotify: setSpotify,
         setDeviceToken: setDeviceToken,
         logout: logout
