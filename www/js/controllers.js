@@ -198,6 +198,7 @@ angular.module('app.controllers', ['ionic.cloud'])
                     }).then(function () {
                         facebookConnectPlugin.login(['email', 'public_profile'], fbLoginSuccess, fbLoginError);
                     });
+                $http.post('http://188.226.129.26/api/register', {
 
                     // Ask the permissions you need. You can learn more about
                     // FB permissions here: https://developers.facebook.com/docs/facebook-login/permissions/v2.4
