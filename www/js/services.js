@@ -23,13 +23,26 @@ angular.module('app.services', [])
       return JSON.parse(window.localStorage.user || '{"facebook": {}}');
     };
 
+    var getFbToken = function () {
+        return JSON.parse(window.localStorage.user).authResponse.accessToken;
+    }
+
+    var isLoggedIn = function () {
+        return !(window.localStorage.user === null);
+    }
+
+    var logout = function () { window.localStorage.removeItem('user'); }
+
     return {
         getUser: getUser,
         setUser: setUser,
+        getFbToken: getFbToken,
+        isLoggedIn: isLoggedIn,
         setSpotify: setSpotify,
         setDeviceToken: setDeviceToken
     };
   })
+
   .service('TwitterService', function ($cordovaOauth, TWITTER_KEY, TWITTER_SECRET, $http, SERVER_URL, UserService) {
     var service = this;
 

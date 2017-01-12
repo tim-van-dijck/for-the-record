@@ -63,12 +63,6 @@ angular.module('app', ['ionic', 'app.controllers', 'app.routes', 'app.directives
       })
     })
 
-  .run(function ($rootScope, $state, LoginService) {
-    $rootScope.$on('$stateChangeStart', function (event, next, nextParams, fromState) {
-      LoginService.isLoggedIn();
-    });
-  })
-
   /*
    This directive is used to disable the "drag to open" functionality of the Side-Menu
    when you are dragging a Slider component.

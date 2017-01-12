@@ -40,9 +40,16 @@ angular.module('app.routes', [])
       })
 
       .state('tabsController', {
-        url: '/page1',
+        url: '/tabs',
         templateUrl: 'templates/tabsController.html',
-        abstract: true
+        abstract: true,
+        controller: 'tabsCtrl',
+        onEnter: function($state, UserService){
+            if(!UserService.isLoggedIn()){
+                console.log('boink!');
+                $state.go('login');
+            }
+        }
       })
 
       .state('login', {
@@ -56,10 +63,14 @@ angular.module('app.routes', [])
         controller: 'logoutCtrl'
       })
 
-      .state('settings', {
+      .state('tabsController.settings', {
         url: '/settings',
-        controller: 'settingsCtrl as settings',
-        templateUrl: 'templates/settings.html'
+          views: {
+              'tab3': {
+                  templateUrl: 'templates/settings.html',
+                  controller: 'settingsCtrl'
+              }
+          }
       })
 
       .state('tabsController.profile', {
@@ -82,5 +93,5 @@ angular.module('app.routes', [])
         }
       })
 
-    $urlRouterProvider.otherwise('/login')
+    $urlRouterProvider.otherwise('/tabs/newsfeed')
   });

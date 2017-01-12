@@ -1,20 +1,8 @@
 <ion-view title="My music" id="page3">
   <ion-content padding="true" class="has-header">
-    <ion-list id="myMusic-list7">
-      <ion-item class="item-thumbnail-left" id="myMusic-list-item30" ui-sref="tabsController.record">
-        <h2>Record 1</h2>
-      </ion-item>
-      <ion-item class="item-thumbnail-left" id="myMusic-list-item31" ui-sref="tabsController.record">
-        <h2>Record 2</h2>
-      </ion-item>
-      <ion-item class="item-thumbnail-left" id="myMusic-list-item32" ui-sref="tabsController.record">
-        <h2>Record 3</h2>
-      </ion-item>
-      <ion-item class="item-thumbnail-left" id="myMusic-list-item33" ui-sref="tabsController.record">
-        <h2>Record 4</h2>
-      </ion-item>
-      <ion-item class="item-thumbnail-left" id="myMusic-list-item34" ui-sref="tabsController.record">
-        <h2>Record 5</h2>
+    <ion-list id="myMusic-list7" ng-if="getRecords().length > 0">
+      <ion-item ngRepeat="(key, record) in getRecords()" class="item-thumbnail-left" id="myMusic-list-item30" ui-sref="tabsController.record">
+        <h2>{{ record.name }}</h2>
       </ion-item>
     </ion-list>
   </ion-content>
