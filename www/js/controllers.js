@@ -1,6 +1,6 @@
 angular.module('app.controllers', ['ionic.cloud'])
 
-  .controller('settingsCtrl', function (SpotifyService, TwitterService) {
+  .controller('settingsCtrl', function (SpotifyService, TwitterService, UserService, $state) {
     var settings = this;
 
     settings.spotify = function () {
@@ -17,12 +17,14 @@ angular.module('app.controllers', ['ionic.cloud'])
         console.log(err);
       });
     }
+    settings.logout = function() {
+      facebookConnectPlugin.logout(function () {
+        console.log('Logging out...');
+      });
+      UserService.logout();
+      $state.go('login');
+    }
   })
-
-  .controller('tabsCtrl', ['$scope', '$stateParams',
-    function ($scope, $stateParams, UserService, TwitterService) {
-
-    }])
 
   .controller('newsfeedCtrl', ['$scope', '$stateParams', // The following is the constructor function for this page's controller. See https://docs.angularjs.org/guide/controller
     // You can include any angular dependencies as parameters for this function
@@ -62,11 +64,12 @@ angular.module('app.controllers', ['ionic.cloud'])
   .controller('loginCtrl', function ($scope, $state, $q, UserService, $ionicLoading, $http, $ionicPush) {
     // This is the success callback from the login method
     if (UserService.isLoggedIn()) {
-      $state.go('tabdController.newsfeed');
+      $state.go('tabs.newsfeed');
     }
     var fbLoginSuccess = function (response) {
       $ionicLoading.hide();
 
+      console.log(response);
       if (!response.authResponse) {
         fbLoginError("Cannot find the authResponse");
         return;
@@ -77,6 +80,7 @@ angular.module('app.controllers', ['ionic.cloud'])
       getFacebookProfileInfo(authResponse)
         .then(function (profileInfo) {
           // For the purpose of this example I will store user data on local storage
+          console.log(profileInfo);
           UserService.setUser({
             authResponse: authResponse,
             userID: profileInfo.id,
@@ -85,15 +89,7 @@ angular.module('app.controllers', ['ionic.cloud'])
             picture: "http://graph.facebook.com/" + authResponse.userID + "/picture?type=large"
           });
 
-          $ionicPush.register().then(function (t) {
-            return $ionicPush.saveToken(t);
-          }).then(function (t) {
-            console.log('Push token saved: ' + t.token);
-            UserService.setDeviceToken(t.token);
-          });
-
           var user = UserService.getUser();
-
           // Store user in DB
           $http.post('http://188.226.129.26/api/register', {
             firstname: profileInfo.first_name,
@@ -128,7 +124,8 @@ angular.module('app.controllers', ['ionic.cloud'])
       var info = $q.defer();
       accessToken = authResponse.accessToken
 
-      facebookConnectPlugin.api('/me?fields=email,first_name,last_name&access_token=' + accessToken, null,
+
+      facebookConnectPlugin.api('/me?fields=email,first_name,last_name&access_token=' + accessToken, ['publish_actions'],
         function (response) {
           console.log(response);
           info.resolve(response);
@@ -151,7 +148,6 @@ angular.module('app.controllers', ['ionic.cloud'])
 
           // Check if we have our user saved
           var user = UserService.getUser('facebook');
-          console.log(user);
 
           if (!user.facebook.userID) {
             getFacebookProfileInfo(success.authResponse)
@@ -189,10 +185,6 @@ angular.module('app.controllers', ['ionic.cloud'])
             $state.go('tabs.newsfeed');
           }
         } else {
-          // If (success.status === 'not_authorized') the user is logged in to Facebook,
-          // but has not authenticated your app
-          // Else the person is not logged into Facebook,
-          // so we're not sure if they are logged into this app or not.
 
           console.log('getLoginStatus', success.status);
 

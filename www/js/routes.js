@@ -2,43 +2,8 @@ angular.module('app.routes', [])
 
   .config(function ($stateProvider, $urlRouterProvider) {
 
-    // Ionic uses AngularUI Router which uses the concept of states
-    // Learn more here: https://github.com/angular-ui/ui-router
-    // Set up the various states which the app can be in.
-    // Each state's controller can be found in controllers.js
+
     $stateProvider
-
-
-      .state('tabs.newsfeed', {
-        url: '/newsfeed',
-        views: {
-          'tab1': {
-            templateUrl: 'templates/newsfeed.html',
-            controller: 'newsfeedCtrl'
-          }
-        }
-      })
-
-      .state('tabs.myMusic', {
-        url: '/my-music',
-        views: {
-          'tab2': {
-            templateUrl: 'templates/myMusic.html',
-            controller: 'myMusicCtrl as music'
-          }
-        }
-      })
-
-      .state('tabs.following', {
-        url: '/following',
-        views: {
-          'tab3': {
-            templateUrl: 'templates/following.html',
-            controller: 'followingCtrl'
-          }
-        }
-      })
-
       .state('tabs', {
         url: '/tabs',
         templateUrl: 'templates/tabsController.html',
@@ -54,16 +19,13 @@ angular.module('app.routes', [])
       .state('login', {
         url: '/login',
         templateUrl: 'templates/login.html',
-        controller: 'loginCtrl'
-      })
-
-      .state('logout', {
-        url: '/logout',
-        controller: 'logoutCtrl'
+        controller: 'loginCtrl',
+        mustBeLoggedIn: false
       })
 
       .state('tabs.settings', {
         url: '/settings',
+        mustBeLoggedIn: true,
           views: {
               'tab3': {
                   templateUrl: 'templates/settings.html',
@@ -72,18 +34,9 @@ angular.module('app.routes', [])
           }
       })
 
-      .state('tabs.profile', {
-        url: '/profile',
-        views: {
-          'tab3': {
-            templateUrl: 'templates/profile.html',
-            controller: 'profileCtrl'
-          }
-        }
-      })
-
       .state('tabs.record', {
         url: '/record',
+        mustBeLoggedIn: true,
         views: {
           'tab2': {
             templateUrl: 'templates/record.html',
@@ -92,5 +45,30 @@ angular.module('app.routes', [])
         }
       })
 
-    $urlRouterProvider.otherwise('/tabs/newsfeed')
+      .state('tabs.newsfeed', {
+        url: '/newsfeed',
+        mustBeLoggedIn: true,
+        views: {
+          'tab1': {
+            templateUrl: 'templates/newsfeed.html',
+            controller: 'newsfeedCtrl'
+          }
+        }
+      })
+
+      .state('tabs.myMusic', {
+        url: '/my-music',
+        mustBeLoggedIn: true,
+        views: {
+          'tab2': {
+            templateUrl: 'templates/myMusic.html',
+            controller: 'myMusicCtrl as music'
+          }
+        }
+      })
+
+    $urlRouterProvider.otherwise(function($injector, $location) {
+      var $state = $injector.get('$state');
+      $state.go("tabs.myMusic");
+    });
   });

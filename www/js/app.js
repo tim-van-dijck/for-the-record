@@ -42,26 +42,28 @@ angular.module('app', ['ionic', 'app.controllers', 'app.routes', 'app.directives
     });
   })
 
-    .run(function($rootScope, $stateParams, $ionicPush,$state) {
-      $rootScope.$on('cloud:push:notification', function (event, data) {
-        console.log(data);
-        var message = data.message.payload;
+  .run(function ($rootScope, $stateParams, $ionicPush, $state, $ionicPlatform) {
+    function unauthorized() {
+      console.log("User is unauthorized, sending to login");
+      $state.go('login');
+    }
 
-        $state.go('tabsController.newsfeed');
-        facebookConnectPlugin.showDialog({
-            method: "feed",
-            link: message.link,
-            message: 'Test post from App',
-          },
-          function (response) {
-            alert(JSON.stringify(response))
-          },
-          function (response) {
-            alert(JSON.stringify(response))
-          }
-        );
-      })
-    })
+    $rootScope.$on('$stateChangeStart', function (event, toState, toParams, fromState) {
+      console.log(window.localStorage.user);
+      if(!window.localStorage.user && toState.mustBeLoggedIn) {
+        event.preventDefault();
+        unauthorized();
+      } else {
+        console.log('User is authorized');
+      }
+    });
+
+    $ionicPlatform.on('deviceready', function () {
+      if(!window.localStorage.user) {
+        unauthorized();
+      }
+    });
+  })
 
   /*
    This directive is used to disable the "drag to open" functionality of the Side-Menu
