@@ -24,7 +24,7 @@ angular.module('app.services', [])
     };
 
     var getFbToken = function () {
-        return JSON.parse(window.localStorage.user).authResponse.accessToken;
+        return JSON.parse(window.localStorage.user).facebook.authResponse.accessToken;
     }
 
     var isLoggedIn = function () {

@@ -32,12 +32,12 @@ angular.module('app.controllers', ['ionic.cloud'])
 
         }])
 
-    .controller('myMusicCtrl', ['$scope', '$stateParams', // The following is the constructor function for this page's controller. See https://docs.angularjs.org/guide/controller
+    .controller('myMusicCtrl', ['$scope', '$stateParams', '$http', 'UserService', // The following is the constructor function for this page's controller. See https://docs.angularjs.org/guide/controller
         // You can include any angular dependencies as parameters for this function
         // TIP: Access Route Parameters for your page via $stateParams.parameterName
         function ($scope, $stateParams, $http, UserService) {
             var _this = this;
-            var fb_token = UserService.getUser().authResponse.accessToken;
+            var fb_token = UserService.getFbToken();
             $http.get('http://188.226.129.26/api/my-music?fb_token='+fb_token).then(function (records) {
                 _this.records = records;
             });
