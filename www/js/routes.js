@@ -9,7 +9,7 @@ angular.module('app.routes', [])
     $stateProvider
 
 
-      .state('tabsController.newsfeed', {
+      .state('tabs.newsfeed', {
         url: '/newsfeed',
         views: {
           'tab1': {
@@ -19,17 +19,17 @@ angular.module('app.routes', [])
         }
       })
 
-      .state('tabsController.myMusic', {
+      .state('tabs.myMusic', {
         url: '/my-music',
         views: {
           'tab2': {
             templateUrl: 'templates/myMusic.html',
-            controller: 'myMusicCtrl'
+            controller: 'myMusicCtrl as music'
           }
         }
       })
 
-      .state('tabsController.following', {
+      .state('tabs.following', {
         url: '/following',
         views: {
           'tab3': {
@@ -39,11 +39,10 @@ angular.module('app.routes', [])
         }
       })
 
-      .state('tabsController', {
+      .state('tabs', {
         url: '/tabs',
         templateUrl: 'templates/tabsController.html',
         abstract: true,
-        controller: 'tabsCtrl',
         onEnter: function($state, UserService){
             if(!UserService.isLoggedIn()){
                 console.log('boink!');
@@ -63,17 +62,17 @@ angular.module('app.routes', [])
         controller: 'logoutCtrl'
       })
 
-      .state('tabsController.settings', {
+      .state('tabs.settings', {
         url: '/settings',
           views: {
               'tab3': {
                   templateUrl: 'templates/settings.html',
-                  controller: 'settingsCtrl'
+                  controller: 'settingsCtrl as settings'
               }
           }
       })
 
-      .state('tabsController.profile', {
+      .state('tabs.profile', {
         url: '/profile',
         views: {
           'tab3': {
@@ -83,7 +82,7 @@ angular.module('app.routes', [])
         }
       })
 
-      .state('tabsController.record', {
+      .state('tabs.record', {
         url: '/record',
         views: {
           'tab2': {

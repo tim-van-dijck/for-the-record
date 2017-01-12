@@ -20,5 +20,6 @@
     </orderEntry>
     <orderEntry type="module" module-name="disc-covery-backend" />
     <orderEntry type="module" module-name="afstudeerwerk" />
+    <orderEntry type="library" name="disc-covery node_modules" level="project" />
   </component>
 </module>

@@ -39,7 +39,8 @@ angular.module('app.services', [])
         getFbToken: getFbToken,
         isLoggedIn: isLoggedIn,
         setSpotify: setSpotify,
-        setDeviceToken: setDeviceToken
+        setDeviceToken: setDeviceToken,
+        logout: logout
     };
   })
 
