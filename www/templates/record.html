@@ -1,18 +1,15 @@
-<ion-view title="Record" id="page9">
-  <ion-nav-buttons side="right" class="has-header">
-    <button class="button button-icon icon ion-search"> Find record</button>
-  </ion-nav-buttons>
+<ion-view title="{{ record.record.name }}" id="record">
   <ion-content padding="true" class="has-header">
     <div style="margin: 0px; line-height: 250px; background-color: rgb(232, 235, 239); text-align: center;">
-      <i class="icon ion-image" style="font-size: 64px; color: rgb(136, 136, 136); vertical-align: middle;"></i>
+      <img src="{{ record.record.image }}" alt="{{ record.record.name }}">
     </div>
-    <h2 id="record-heading2" style="color:#000000;">Record title</h2>
-    <h3 id="record-heading3" style="color:#000000;">Artist</h3>
-    <ion-list id="record-list9" ng-if="">
-
-      <ion-item id="record-list-item18" ng-repeat="(key, value) in getRecords()">Song 1</ion-item>
-      <ion-item id="record-list-item19">Song 2</ion-item>
-      <ion-item id="record-list-item24">Song 3</ion-item>
+    <h2 id="record-heading2" style="color:#000000;">{{ record.record.name }}</h2>
+    <h3 id="record-heading3" style="color:#000000;">{{ record.record.artist }}</h3>
+    <ion-list id="record-tracks">
+      <ion-item id="record-list-item18" ng-repeat="(key, track) in record.record.tracks">
+        <span class="duration">{{ track.duration }}</span>
+        {{ key+1 }}. {{ track.name }}
+        </ion-item>
     </ion-list>
   </ion-content>
 </ion-view>

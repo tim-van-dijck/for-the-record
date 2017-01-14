@@ -21,4 +21,7 @@ $ionicons-font-path: "../lib/ionic/fonts" !default;
 // Include all of Ionic
 @import "www/lib/ionic/scss/ionic";
 
-body { background: url('www/img/bg.jpg'); }
+.background, .background .pane, .background .item, .background .item-complex .item-content { background: url('../img/bg.jpg'); }
+#record {
+	.duration { float: right; }
+}
