@@ -1,8 +1,14 @@
 <ion-view title="My music" id="page3">
   <ion-content padding="true" class="has-header">
-    <ion-list id="myMusic-list7" ng-if="getRecords().length > 0">
-      <ion-item ngRepeat="(key, record) in _this.records" class="item-thumbnail-left" id="myMusic-list-item30" ui-sref="tabsController.record">
+    <p>{{ music.records.length }}</p>
+    <ion-list id="myMusic-list7">
+      <ion-item ng-if="music.records.length == 0" class="item-thumbnail-left" ui-sref="tabs.record({id: record.id)">
+        <h2>No records found</h2>
+      </ion-item>
+      <ion-item ng-repeat="record in music.records" class="item-thumbnail-left" ui-sref="tabs.record({id: record.id)">
+        <img src="{{ record.image }}" alt="" height="50">
         <h2>{{ record.name }}</h2>
+        <h3>{{ record.artist}}</h3>
       </ion-item>
     </ion-list>
   </ion-content>

@@ -39,7 +39,7 @@ angular.module('app.controllers', ['ionic.cloud'])
       var music = this;
       var fb_token = UserService.getFbToken();
       $http.get('http://188.226.129.26/api/my-music?fb_token=' + fb_token).then(function (records) {
-        music.records = records;
+          music.records = records.data;
       });
     }])
 
@@ -55,8 +55,11 @@ angular.module('app.controllers', ['ionic.cloud'])
     // You can include any angular dependencies as parameters for this function
     // TIP: Access Route Parameters for your page via $stateParams.parameterName
     function ($scope, $stateParams, $http) {
-
-
+        var record = this;
+        var record_id = $stateParams.id;
+        $http.get(SERVER_URL+'records/'+record_id+'/get').then(function (records) {
+            record.record = records.data;
+        });
     }])
 
   .controller('loginCtrl', function ($scope, $state, $q, UserService, $ionicLoading, $http, $ionicPush) {

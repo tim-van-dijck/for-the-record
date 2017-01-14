@@ -83,11 +83,11 @@ angular.module('app.routes', [])
       })
 
       .state('tabs.record', {
-        url: '/record',
+        url: '/record/:id',
         views: {
           'tab2': {
             templateUrl: 'templates/record.html',
-            controller: 'recordCtrl'
+            controller: 'recordCtrl as record'
           }
         }
       })
