@@ -17,7 +17,7 @@ angular.module('app.controllers', ['ionic.cloud'])
         console.log(err);
       });
     }
-    settings.logout = function() {
+    settings.logout = function () {
       facebookConnectPlugin.logout(function () {
         console.log('Logging out...');
       });
@@ -34,14 +34,15 @@ angular.module('app.controllers', ['ionic.cloud'])
 
     }])
 
-  .controller('myMusicCtrl', ['$scope', '$stateParams', '$http', 'UserService', 'SERVER_URL', // The following is the constructor function for this page's controller. See https://docs.angularjs.org/guide/controller
+  .controller('myMusicCtrl', ['$scope', '$stateParams', '$http', 'UserService', 'SERVER_URL', '$ionicLoading', // The following is the constructor function for this page's controller. See https://docs.angularjs.org/guide/controller
     // You can include any angular dependencies as parameters for this function
     // TIP: Access Route Parameters for your page via $stateParams.parameterName
-    function ($scope, $stateParams, $http, UserService, SERVER_URL) {
+    function ($scope, $stateParams, $http, UserService, SERVER_URL, $state, $ionicLoading) {
       var music = this;
       var fb_token = UserService.getFbToken();
-      $http.get(SERVER_URL+'my-music?fb_token=' + fb_token).then(function (records) {
-          music.records = records.data;
+
+      $http.get(SERVER_URL + 'my-music?fb_token=' + fb_token).then(function (records) {
+        music.records = records.data;
       });
     }])
 
@@ -57,12 +58,12 @@ angular.module('app.controllers', ['ionic.cloud'])
     // You can include any angular dependencies as parameters for this function
     // TIP: Access Route Parameters for your page via $stateParams.parameterName
     function ($scope, $stateParams, $http, SERVER_URL) {
-        var record = this;
-        var record_id = $stateParams.id;
-        $http.get(SERVER_URL+'records/'+record_id+'/get').then(function (records) {
-            record.record = records.data;
-            console.log(record.record);
-        });
+      var record = this;
+      var record_id = $stateParams.id;
+      $http.get(SERVER_URL + 'records/' + record_id + '/get').then(function (records) {
+        record.record = records.data;
+        console.log(record.record);
+      });
     }])
 
   .controller('loginCtrl', function ($scope, $state, $q, UserService, $ionicLoading, $http, $ionicPush) {

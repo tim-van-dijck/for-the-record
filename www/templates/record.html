@@ -1,10 +1,10 @@
 <ion-view title="{{ record.record.name }}" id="record">
   <ion-content padding="true" class="has-header">
-    <div style="margin: 0px; line-height: 250px; background-color: rgb(232, 235, 239); text-align: center;">
+    <div class="record-image">
       <img src="{{ record.record.image }}" alt="{{ record.record.name }}">
     </div>
-    <h2 id="record-heading2" style="color:#000000;">{{ record.record.name }}</h2>
-    <h3 id="record-heading3" style="color:#000000;">{{ record.record.artist }}</h3>
+    <h2 class="record-heading" id="record-heading2">{{ record.record.name }}</h2>
+    <h3 class="record-heading" id="record-heading3">{{ record.record.artist }}</h3>
     <ion-list id="record-tracks">
       <ion-item id="record-list-item18" ng-repeat="(key, track) in record.record.tracks">
         <span class="duration">{{ track.duration }}</span>
