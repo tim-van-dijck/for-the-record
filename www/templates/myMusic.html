@@ -4,11 +4,14 @@
       <ion-item ng-if="music.records.length == 0" class="item-thumbnail-left" ui-sref="tabs.record({id: record.id})">
         <h2>No records found</h2>
       </ion-item>
-      <ion-item ng-repeat="record in music.records" class="item-thumbnail-left" ui-sref="tabs.record({id: record.id})">
-        <img src="{{ record.image }}" alt="" height="50">
+      <ion-item ng-repeat="record in music.records" class="item-thumbnail-left"
+                ui-sref="tabs.record({id: record.id})">
+        <img src="{{ record.image }}" alt="{{record.name}}" height="50">
         <h2>{{ record.name }}</h2>
         <h3>{{ record.artist}}</h3>
+        <h4>{{ record.year }}</h4>
       </ion-item>
     </ion-list>
   </ion-content>
 </ion-view>
+

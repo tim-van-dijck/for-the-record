@@ -9815,8 +9815,54 @@ a.button {
   -webkit-transition-duration: 0s;
   transition-duration: 0s; }
 
-.background, .background .pane, .background .item, .background .item-complex .item-content {
+.background, .background .pane {
   background: url("../img/bg.jpg"); }
+
+.background .item, .background .item-complex .item-content {
+  background: transparent; }
 
 #record .duration {
   float: right; }
+
+.bar-stable.background {
+  background-color: #1b1b1b !important;
+  border: none !important;
+  color: white !important; }
+
+.tabs-stable .tabs {
+  background-color: #1b1b1b !important;
+  border-bottom: none !important; }
+  .tabs-stable .tabs .tab-item {
+    color: white !important; }
+
+.spotify {
+  background-image: url("../img/spotify-logo.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: 50%;
+  width: 32px; }
+
+.ion-social-twitter {
+  color: #1da1f2; }
+
+.ion-power {
+  color: red; }
+
+.record-image {
+  text-align: center; }
+
+.record-heading {
+  color: white; }
+
+.title {
+  color: white !important; }
+
+.pane .list .item {
+  border-color: white;
+  border-left: none;
+  border-right: none;
+  color: white; }
+  .pane .list .item:first-child {
+    border-top: none; }
+  .pane .list .item .ng-binding {
+    color: white; }
