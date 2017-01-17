@@ -59,6 +59,7 @@ angular.module('app.routes', [])
       .state('tabs.myMusic', {
         url: '/my-music',
         mustBeLoggedIn: true,
+        cache: false,
         views: {
           'tab2': {
             templateUrl: 'templates/myMusic.html',
