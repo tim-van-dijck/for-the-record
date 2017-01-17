@@ -3,6 +3,8 @@ angular.module('app.controllers', ['ionic.cloud'])
   .controller('settingsCtrl', function (SpotifyService, TwitterService, UserService, $state) {
     var settings = this;
 
+    settings.spotify_linked = SpotifyService.is_linked();
+    settings.twitter_linked = TwitterService.is_linked();
     settings.spotify = function () {
       SpotifyService.login().then(function (res) {
         console.log(res);

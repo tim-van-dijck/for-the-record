@@ -7,9 +7,15 @@ angular.module('app.services', [])
       window.localStorage.user = facebook;
     };
 
-    var setSpotify = function (spotify_data) {
+    var setSpotify = function () {
         var user = JSON.parse(window.localStorage.user);
-        user.spotify = spotify_data;
+        user.spotify = true;
+        window.localStorage.user = JSON.stringify(user);
+    };
+
+    var setTwitter = function () {
+        var user = JSON.parse(window.localStorage.user);
+        user.twitter = true;
         window.localStorage.user = JSON.stringify(user);
     };
 
@@ -38,8 +44,8 @@ angular.module('app.services', [])
         setUser: setUser,
         getFbToken: getFbToken,
         isLoggedIn: isLoggedIn,
-        logout: logout,
         setSpotify: setSpotify,
+        setTwitter: setTwitter,
         setDeviceToken: setDeviceToken,
         logout: logout
     };
@@ -64,12 +70,18 @@ angular.module('app.services', [])
           api_user_id: api_user_id
         }).then(function (res) {
           console.log(res);
+          UserService.setTwitter();
         }, function (err) {
           console.log(err);
         })
-
       })
     }
+
+      service.is_linked = function() {
+          $user = UserService.getUser();
+          if ($user.twitter == true) { return true; }
+          else { return false; }
+      }
   })
 
   .service('SpotifyService', function ($cordovaOauth, SPOTIFY_ID, Spotify, $http, SERVER_URL, UserService) {
@@ -91,10 +103,16 @@ angular.module('app.services', [])
 
         }).then(function (res) {
           console.log(res);
+            UserService.setSpotify();
         }, function (err) {
           console.log(err);
         })
       })
+    }
+    service.is_linked = function() {
+        $user = UserService.getUser();
+        if ($user.spotify == true) { return true; }
+        else { return false; }
     }
   })
 
